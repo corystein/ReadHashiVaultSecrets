@@ -1,0 +1,74 @@
+{
+    "manifestVersion": 1,
+    "id": "corystein-ReadHashiVaultSecrets",
+    "name": "Read Secrets from Hashi Vault",
+    "version": "1.0.0",
+    "publisher": "cory-stein",
+    "public": true,
+    "targets": [{
+        "id": "Microsoft.VisualStudio.Services"
+    }],
+    "description": "Release task for reading secrets from Key Vault for sharing values across releases.",
+    "scopes": [
+        "vso.build",
+        "vso.release",
+        "vso.serviceendpoint"
+    ],
+    "categories": [
+        "Build and release"
+    ],
+    "tags": [
+        "Hashi Vault",
+        "Key",
+        "Vault",
+        "Secret",
+        "Configuration"
+    ],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        },
+        "license": {
+            "path": "license.md"
+        }
+    },
+    "links": {
+        "repository": {
+            "uri": "https://github.com/corystein/ReadHashiVauleSecrets"
+        },
+        "issues": {
+            "uri": "https://github.com/corystein/ReadHashiVauleSecrets"
+        },
+        "getstarted": {
+            "uri": "https://github.com/corystein/ReadHashiVauleSecrets"
+        },
+        "support": {
+            "uri": "https://github.com/corystein/ReadHashiVauleSecrets"
+        }
+    },
+
+    "branding": {
+        "color": "rgb(36, 43, 50)",
+        "theme": "dark"
+    },
+    "icons": {
+        "default": "images/icon.png",
+        "large": "images/icon_large.png"
+    },
+    "files": [{
+        "path": "tasks",
+        "addressable": true
+    }],
+
+    "contributions": [{
+        "id": "corystein-ReadHashiVaultSecrets",
+        "type": "ms.vss-distributed-task.task",
+        "description": "Reads values from Hashi Vault key/value engines and create Azure DevOps variables.",
+        "targets": [
+            "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+            "name": "tasks"
+        }
+    }]
+}
