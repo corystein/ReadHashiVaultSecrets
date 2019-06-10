@@ -2,20 +2,20 @@
     "manifestVersion": 1,
     "id": "corystein-ReadHashiVaultSecrets",
     "name": "Read Secrets from Hashi Vault",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "cory-stein",
     "public": true,
     "targets": [{
         "id": "Microsoft.VisualStudio.Services"
     }],
-    "description": "Release task for reading secrets from Key Vault for sharing values across releases.",
+    "description": "Release task for reading secrets from Hashi Vault for sharing values across releases.",
     "scopes": [
         "vso.build",
         "vso.release",
         "vso.serviceendpoint"
     ],
     "categories": [
-        "Build and release"
+        "Azure Pipelines"
     ],
     "tags": [
         "Hashi Vault",
@@ -33,9 +33,6 @@
         }
     },
     "links": {
-        "repository": {
-            "uri": "https://github.com/corystein/ReadHashiVauleSecrets"
-        },
         "issues": {
             "uri": "https://github.com/corystein/ReadHashiVauleSecrets"
         },
@@ -45,6 +42,10 @@
         "support": {
             "uri": "https://github.com/corystein/ReadHashiVauleSecrets"
         }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/corystein/ReadHashiVauleSecrets"
     },
 
     "branding": {

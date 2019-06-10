@@ -1,2 +1,5 @@
 # Ignore publish scripts
 build-publish.ps1
+
+# Mac folder files
+.DS_Store

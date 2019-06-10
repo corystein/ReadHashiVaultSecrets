@@ -4,10 +4,7 @@
     "friendlyName": "Read Secrets from Hashi Vault",
     "description": "Reads secrets from Hashi Vault and creates Azure DevOps variables",
     "helpMarkDown": "[More Information, setup...](https://github.com/corystein/ReadHashiVaultSecrets)",
-    "category": [
-        "Utility",
-        "Release"
-    ],
+    "category": "Utility",
     "author": "Cory Stein",
     "version": {
         "Major": 1,
@@ -76,8 +73,7 @@
             "label": "Add a prefix to variables",
             "defaultValue": "false",
             "required": false,
-            "helpMarkDown": "Whether a prefix should be added to the generated variables",
-            "visibleRule": "secretOption = multiple"
+            "helpMarkDown": "Whether a prefix should be added to the generated variables"
         },
         {
             "name": "variablePrefix",
