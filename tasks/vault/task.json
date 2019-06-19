@@ -9,7 +9,7 @@
     "version": {
         "Major": 1,
         "Minor": 0,
-        "Patch": 0
+        "Patch": 1
     },
     "demands": ["azureps"],
     "visibility": [
@@ -85,10 +85,8 @@
         }
     ],
     "execution": {
-        "PowerShell3": {
-            "target": "$(currentDirectory)\\powershell.ps1",
-            "argumentFormat": "",
-            "workingDirectory": "$(currentDirectory)"
+        "Node": {
+            "target": "index.js"
         }
     }
 }

@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "corystein-ReadHashiVaultSecrets",
-    "name": "Read Secrets from Hashi Vault",
-    "version": "1.0.1",
+    "id": "ReadHashiVaultSecrets",
+    "name": "Read Secrets from HashiCorp Vault",
+    "version": "1.0.4",
     "publisher": "cory-stein",
     "public": true,
     "targets": [{
@@ -57,19 +57,18 @@
         "large": "images/icon_large.png"
     },
     "files": [{
-        "path": "tasks",
-        "addressable": true
+        "path": "tasks"
     }],
 
     "contributions": [{
-        "id": "corystein-ReadHashiVaultSecrets",
+        "id": "hashicorp-read-vault-secrets-task",
         "type": "ms.vss-distributed-task.task",
         "description": "Reads values from Hashi Vault key/value engines and create Azure DevOps variables.",
         "targets": [
             "ms.vss-distributed-task.tasks"
         ],
         "properties": {
-            "name": "tasks"
+            "name": "tasks/vault"
         }
     }]
 }
