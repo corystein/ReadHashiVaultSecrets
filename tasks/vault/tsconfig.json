@@ -1,6 +1,7 @@
 {
-    "compilerOptions": {
-        "target": "ES6",
-        "module": "commonjs"
-    }
+  "compilerOptions": {
+    // ...other options
+    "module": "commonjs", // add this
+    "target": "es6", // and this
+  },
 }

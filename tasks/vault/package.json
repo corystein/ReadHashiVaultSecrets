@@ -1,5 +1,5 @@
 {
-  "name": "read-vault-secrets",
+  "name": "pwc-digitalplatform-vault",
   "version": "1.0.0",
   "description": "Azure DevOps utility tasks",
   "main": "index.js",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/corystein/ReadHashiVauleSecrets"
+    "url": "https://github.pwc.com/pwc-labs/devops-extensions"
   },
-  "author": "Cory Stein",
+  "author": "PwC - Digital Platform",
   "license": "ISC",
   "dependencies": {
     "azure-pipelines-task-lib": "^2.8.0",
